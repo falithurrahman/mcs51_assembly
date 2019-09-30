@@ -1,0 +1,4 @@
+LOOP:
+MOV P0, #00000000B
+JMP LOOP
+end
