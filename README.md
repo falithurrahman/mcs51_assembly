@@ -11,4 +11,6 @@ I made the minimum system of MCS51 microcontroller at this project. You can find
 
 You can take a look at the picture below for the example schematic. I got this picture available online from [here](https://www.inzarsalfikar.com/2011/03/minimum-system-at89s51-at89s52-skematic.html). But for this project i made some modification for the schematic that you can see at the PCB folder.
 
-Tugas mata kuliah sistem elektronika tertanam (embedded system). Tujuan dari tugas ini adalah merancang minimum system untuk mikrokontroller mcs51 yang kemudian akan diprogram untuk mengedipkan LED.
+![Schematic](https://github.com/falithurrahman/minimum_system_mcs51/blob/master/PCB/minsysAT89s51%20skematic.JPG "Schematic")
+
+You can upload program to this board using USBASP programmer which can be purchased at local electronic stores. I've also created the port to upload program by extending the MOSI, MISO, and SCK pin.
