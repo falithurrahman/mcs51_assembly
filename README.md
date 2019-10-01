@@ -13,4 +13,4 @@ You can take a look at the picture below for the example schematic. I got this p
 
 ![Schematic](https://github.com/falithurrahman/minimum_system_mcs51/blob/master/PCB/minsysAT89s51%20skematic.JPG "Schematic")
 
-You can upload program to this board using USBASP programmer which can be purchased at local electronic stores. I've also created the port to upload program by extending the MOSI, MISO, and SCK pin.
+You can upload program to this board using USBASP programmer which can be purchased at local electronic stores. I've also created the port to upload program by extending the MOSI, MISO, and SCK pin. To test whether this board working or not, i upload a simple program to blink the LED in port 0. The file is main.asm that available in this repository.
