@@ -1,7 +1,7 @@
 ### Description
 
 
-##### 1. Minimum_System_MCS1
+#### 1. Minimum_System_MCS1
 I made the minimum system of MCS51 microcontroller at this project. You can find the example of MC51's minimum system schematic on the internet, there's a lot of it. But at this project i use my creativity to route and wire the minimum system board on my own. The components needed for this project included :
 1. AT89S51 IC
 2. LM7805 regulator
@@ -26,3 +26,7 @@ Sensor i used in this project is very simple. I made two nearly-connected conduc
 Then the sensor was connected to comparator, i used LM324 as the comparator.
 
 The idea is quite simple. If there is no water touches the sensor, the resistance of the sensor is very high because it's open circuit. Because of this resistance value, the comparator will generate low logic. And vice versa, the comparator will generate high logic if there is water touches the sensor. The comparator board is equipped with LED as an indicator.
+
+#### 3. Servo
+
+I move a servo using MCS51 with assembly language in this project. It may look simple, but generating pulse with this primitive language is not as easy as it said. The type of servo i used is tower pro sg90. This servo works between 0-2ms with period of 20ms.
