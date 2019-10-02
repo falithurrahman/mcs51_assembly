@@ -29,4 +29,10 @@ The idea is quite simple. If there is no water touches the sensor, the resistanc
 
 #### 3. Servo
 
-I move a servo using MCS51 with assembly language in this project. It may look simple, but generating pulse with this primitive language is not as easy as it said. The type of servo i used is tower pro sg90. This servo works between 0-2ms with period of 20ms.
+I move a servo using MCS51 with assembly language in this project. It may look simple, but generating pulse with this primitive language is not as easy as it said. The type of servo i used is tower pro sg90. This servo works between 0-2ms with period of 20ms. ![servo_pulse](https://github.com/falithurrahman/mcs51_assembly/blob/master/servo/Datasheet%20of%20servo/servo_pulse.PNG)
+
+By setting the pulse 1.5ms, the servo moves to position "0". Pulse 1ms sets the servo to position "90" and pulse 2 sets the servo to position "-90".
+
+#### 4. Pulse_read
+
+This project include arduino nano as a pulse generator. Arduino nano will generate pulse with a frequency that depends on analog read value from potentiometer. This pulse will be read by the mcs51 board that connected to the LCD. This LCD then display the value of pulse. The code for mcs51 board is available in the assembly code folder and arduino code is available in arduino code folder of pulse_read project. The LCD type used in this project is Dot Matrix Liquid Crystal Display (LCD) HD44780.
